@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+int  main(){
+    string s=aahtan;
+    char ch='a';
+    int first=-1;
+    int last=-1;
+    int*pf=&first;
+    int *lf=&last;
+    firstandlasta(ch,s,pf,lf)
+}
