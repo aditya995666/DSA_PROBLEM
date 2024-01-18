@@ -3,8 +3,9 @@
 #include<vector>
 using namespace  std;
 bool isAnagram(string s1,string s2){
+    // 26 alphabets:
     vector<int> fre(26,0);
-   // s1and s2 not equal;
+   // s1 and s2 not equal;
     if(s1.length()!=s2.length()){
         return false;
     }
@@ -22,9 +23,11 @@ bool isAnagram(string s1,string s2){
         string s1,s2;
         cin>>s1>>s2;
         if(isAnagram(s1,s2)){
+            // is  anagram
             cout<<"anagram_yees";
         }
         else{
+            // not anagram
             cout<<"anagram_no";
         }
     }
