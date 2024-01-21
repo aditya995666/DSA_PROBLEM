@@ -10,7 +10,10 @@ class node {
  }   
 
 };
+// insert value:
+// created a linklist
 void inserthead(node* &head,int val){
+    // created a new node:
     node* new_node=new node (val);
     new_node->next=head;
     head=new_node;
